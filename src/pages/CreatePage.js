@@ -31,8 +31,8 @@ useTitle("Create Post")
         <h1>Create new Post</h1>
       </div>
       <form className="createPost" onSubmit={handleSubmit}>
-        <input type="text" name="title" className="title" placeholder="title" maxLength="50" required />
-        <textarea name="description" className="description" placeholder="description" maxLength="6000" required/>
+        <input type="text" name="title" className="title" placeholder="title" maxLength="100" required />
+        <textarea name="description" className="description" placeholder="description" maxLength="60000" required/>
         <button type="submit" className="submit">Create</button>
       </form>
     </section>
